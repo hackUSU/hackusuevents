@@ -4,6 +4,7 @@ body{
   background-color: $background-tan;
   margin: 0px;
   font-family: 'Parkway Hotel';
+  color: $dark-blue;
 }
 
 .nav-bar{
@@ -11,7 +12,7 @@ body{
   height: 65px;
   background-color: $dark-blue;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   .nav-item{
     display: inline-block;
     float: left;
@@ -66,7 +67,7 @@ body{
   position: fixed;
   bottom: 0px;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
   #footer-container{
     width: 40%;
     margin: 15px auto;
@@ -84,14 +85,29 @@ body{
   }
 }
 
+#main-logo{
+  padding: 65px 50px;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  img{
+    width: 45%;
+    opacity: .5;
+  }
+}
+
 .content{
   position: absolute;
-  top: 65px;
-  z-index: 1;
-  #main-logo{
-    text-align: center;
-    img{
-      width: 40%
-    }
+  z-index: 2;
+  padding: 75px 50px;
+  text-align: center;
+  font-size: 25px;
+  h1{
+    font-size: 30px;
+    color: $darker-pink;
+    text-decoration: underline;
+  }
+  li{
+    list-style-type: none;
   }
 }
