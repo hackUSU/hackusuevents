@@ -34,7 +34,7 @@ body {
     position: absolute;
     top: 67px;
     left: 17%;
-    background-color: rgb(170,170,170)E; }
+    background-color: rgb(35,31,32); }
     .nav-bar .events-dropdown-show div {
       margin: 10px; }
       .nav-bar .events-dropdown-show div a {
@@ -93,4 +93,11 @@ body {
   .content li {
     list-style-type: none; }
 
+  .organizer{
+    position: absolute;
+    z-index: 2;
+    padding: 40px 40px;
+    text-align: center;
+    font-size: 25px;
+  }
 /*# sourceMappingURL=main.css.map */
