@@ -1,29 +1,121 @@
 @import 'defines';
 
-body{
-  background-color: $light-tan;
+body {
+  background-color: rgb(170, 170, 170);
   margin: 0px;
-  font-family: 'Parkway Hotel';
+  font-family: 'Verdana';
+  color: rgb(32, 66, 91);
 }
 
-.nav-bar{
+.nav-bar {
   width: 100%;
   height: 65px;
-  background-color: $dark-blue;
-  .nav-item{
+  background-color: rgb(32, 66, 91);
+  position: fixed;
+  z-index: 3;
+  .nav-item {
     display: inline-block;
     float: left;
     margin-top: 15px;
     width: 14%;
     text-align: center;
     font-size: 25px;
-    a{
-      color: $dark-tan;
+    color: rgb(170, 170, 170);
+    cursor: pointer;
+    a {
+      color: rgb(170, 170, 170);
+      text-decoration: none;
+      &:hover {
+        color: rgb(170, 170, 170);
+      }
+    }
+    &:hover {
+      color: rgb(170, 170, 170);
     }
   }
-  img{
+  .events-dropdown-show {
+    display: inline-block;
+    position: absolute;
+    top: 67px;
+    left: 17%;
+    background-color: rgb(35, 31, 32);
+    div {
+      margin: 10px;
+      a {
+        color: rgb(170, 170, 170);
+        text-decoration: none;
+        &:hover {
+          color: rgb(170, 170, 170);
+        }
+      }
+    }
+  }
+  .events-dropdown-hide {
+    display: none;
+  }
+  img {
     width: 100px;
     float: right;
     margin-right: 50px;
   }
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(32, 66, 91);
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  z-index: 3;
+  #footer-container {
+    width: 40%;
+    margin: 15px auto;
+    text-align: center;
+    .footer-item {
+      display: inline-block;
+      float: left;
+      width: 25%;
+      text-align: center;
+      a {
+        color: rgb(170, 170, 170);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#main-logo {
+  padding: 0px 50px;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  img {
+    width: 45%;
+    opacity: .5;
+  }
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  padding: 75px 50px;
+  text-align: center;
+  font-size: 25px;
+  h1 {
+    font-size: 30px;
+    color: rgb(32, 66, 91);
+    text-decoration: underline;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+.organizer {
+  position: absolute;
+  z-index: 2;
+  padding: 40px 40px;
+  text-align: center;
+  font-size: 25px;
 }
