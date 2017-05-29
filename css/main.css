@@ -95,6 +95,14 @@ body {
 #hackathon h3 {
   text-decoration: underline; }
 
+.overlay {
+  border: #20425b 3px solid;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 25%; }
+
 #about h1 {
   font-size: 30px;
   color: #20425b;
