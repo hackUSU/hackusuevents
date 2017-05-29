@@ -1,16 +1,16 @@
 @import 'defines';
 
 body {
-  background-color: rgb(170, 170, 170);
+  background-color: $logo-grey;
   margin: 0px;
   font-family: 'Verdana';
-  color: rgb(32, 66, 91);
+  color: $logo-blue;
 }
 
 .nav-bar {
   width: 100%;
   height: 65px;
-  background-color: rgb(32, 66, 91);
+  background-color: $logo-blue;
   position: fixed;
   z-index: 3;
   .nav-item {
@@ -20,17 +20,17 @@ body {
     width: 14%;
     text-align: center;
     font-size: 25px;
-    color: rgb(170, 170, 170);
+    color: $logo-grey;
     cursor: pointer;
     a {
-      color: rgb(170, 170, 170);
+      color: $logo-grey;
       text-decoration: none;
       &:hover {
-        color: rgb(170, 170, 170);
+        color: $logo-grey;
       }
     }
     &:hover {
-      color: rgb(170, 170, 170);
+      color: $logo-grey;
     }
   }
   .events-dropdown-show {
@@ -38,14 +38,14 @@ body {
     position: absolute;
     top: 67px;
     left: 17%;
-    background-color: rgb(35, 31, 32);
+    background-color: $logo-black;
     div {
       margin: 10px;
       a {
-        color: rgb(170, 170, 170);
+        color: $logo-grey;
         text-decoration: none;
         &:hover {
-          color: rgb(170, 170, 170);
+          color: $logo-grey;
         }
       }
     }
@@ -63,7 +63,7 @@ body {
 .footer {
   width: 100%;
   height: 50px;
-  background-color: rgb(32, 66, 91);
+  background-color: $logo-blue;
   position: fixed;
   bottom: 0px;
   text-align: center;
@@ -78,7 +78,7 @@ body {
       width: 25%;
       text-align: center;
       a {
-        color: rgb(170, 170, 170);
+        color: $logo-grey;
         text-decoration: none;
       }
     }
@@ -104,7 +104,7 @@ body {
   font-size: 25px;
   h1 {
     font-size: 30px;
-    color: rgb(32, 66, 91);
+    color: $logo-blue;
     text-decoration: underline;
   }
   li {
