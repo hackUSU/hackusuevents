@@ -134,18 +134,35 @@ body {
   margin-left: 25%;
 }
 
+#organizers {
+  .organizer{
+      width: 50%;
+      margin-left: 25%;
+      margin-bottom: 75px;
+      border-bottom: $logo-blue 1px solid;
+      h3, h5{
+        margin: 10px 0px;
+      }
+
+      img {
+        width: 200px;
+      }
+      .info{
+        font-size: 12px;
+      }
+      .bio{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 20px;
+      }
+  }
+
+}
+
 #about {
   h1 {
     font-size: 30px;
     color: $logo-blue;
     text-decoration: underline;
   }
-}
-
-.organizer {
-  position: absolute;
-  z-index: 2;
-  padding: 40px 40px;
-  text-align: center;
-  font-size: 25px;
 }
