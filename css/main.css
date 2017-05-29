@@ -86,6 +86,9 @@ body {
   .content li {
     list-style-type: none; }
 
+#index h1 {
+  margin-top: 200px; }
+
 #about h1 {
   font-size: 30px;
   color: #20425b;
