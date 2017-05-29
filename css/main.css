@@ -103,16 +103,25 @@ body {
   margin-top: 200px;
   margin-left: 25%; }
 
+#organizers .organizer {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 75px;
+  border-bottom: #20425b 1px solid; }
+  #organizers .organizer h3, #organizers .organizer h5 {
+    margin: 10px 0px; }
+  #organizers .organizer img {
+    width: 200px; }
+  #organizers .organizer .info {
+    font-size: 12px; }
+  #organizers .organizer .bio {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px; }
+
 #about h1 {
   font-size: 30px;
   color: #20425b;
   text-decoration: underline; }
-
-.organizer {
-  position: absolute;
-  z-index: 2;
-  padding: 40px 40px;
-  text-align: center;
-  font-size: 25px; }
 
 /*# sourceMappingURL=main.css.map */
