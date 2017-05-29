@@ -20,10 +20,10 @@ body {
     width: 14%;
     text-align: center;
     font-size: 25px;
-    color: $logo-grey;
+    color: $white;
     cursor: pointer;
     a {
-      color: $logo-grey;
+      color: $white;
       text-decoration: none;
       &:hover {
         color: $logo-grey;
@@ -89,26 +89,30 @@ body {
   padding: 0px 50px;
   text-align: center;
   position: fixed;
-  z-index: 1;
+  z-index: -1;
   img {
     width: 45%;
-    opacity: .5;
+    opacity: .3;
   }
 }
 
 .content {
   position: absolute;
   z-index: 2;
-  padding: 75px 50px;
+  padding: 75px 0px;
   text-align: center;
   font-size: 25px;
+  width: 100%;
+  li {
+    list-style-type: none;
+  }
+}
+
+#about {
   h1 {
     font-size: 30px;
     color: $logo-blue;
     text-decoration: underline;
-  }
-  li {
-    list-style-type: none;
   }
 }
 
