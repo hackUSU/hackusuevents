@@ -89,6 +89,12 @@ body {
 #index h1 {
   margin-top: 200px; }
 
+#hackathon .content {
+  margin: 50px;
+  width: 85%; }
+#hackathon h3 {
+  text-decoration: underline; }
+
 #about h1 {
   font-size: 30px;
   color: #20425b;

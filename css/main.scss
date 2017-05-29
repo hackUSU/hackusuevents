@@ -114,6 +114,17 @@ body {
   }
 }
 
+#hackathon {
+  .content{
+      // text-align: left;
+      margin: 50px;
+      width: 85%;
+  }
+  h3 {
+    text-decoration: underline;
+  }
+}
+
 #about {
   h1 {
     font-size: 30px;
