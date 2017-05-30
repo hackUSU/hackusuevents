@@ -119,6 +119,9 @@ body {
     padding-bottom: 20px;
     font-size: 20px; }
 
+#about .content {
+  width: 85%;
+  margin-left: 50px; }
 #about h1 {
   font-size: 30px;
   color: #20425b;
