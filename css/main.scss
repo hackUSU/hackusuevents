@@ -172,11 +172,14 @@ body {
 }
 
 #sponsors {
-  h2{
-    text-decoration: underline;
-  }
   .sponsor-logo img{
     width: 35%;
     filter: brightness(0.00);
+  }
+}
+
+#gallery {
+  h3{
+    margin-top: 200px;
   }
 }

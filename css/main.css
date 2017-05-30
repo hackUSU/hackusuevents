@@ -127,10 +127,11 @@ body {
   color: #20425b;
   text-decoration: underline; }
 
-#sponsors h2 {
-  text-decoration: underline; }
 #sponsors .sponsor-logo img {
   width: 35%;
   filter: brightness(0); }
+
+#gallery h3 {
+  margin-top: 200px; }
 
 /*# sourceMappingURL=main.css.map */
